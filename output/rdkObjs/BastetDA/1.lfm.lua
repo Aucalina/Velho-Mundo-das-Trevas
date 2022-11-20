@@ -5329,6 +5329,182 @@ local function constructNew_frmBastetDA1_svg()
     obj.edit18:setField("Texto18");
     obj.edit18:setName("edit18");
 
+    obj.layout306 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout306:setParent(obj.rectangle1);
+    obj.layout306:setLeft(208);
+    obj.layout306:setTop(187);
+    obj.layout306:setWidth(170);
+    obj.layout306:setHeight(25);
+    obj.layout306:setName("layout306");
+
+    obj.edit19 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit19:setParent(obj.layout306);
+    obj.edit19:setTransparent(true);
+    obj.edit19:setFontSize(16.5);
+    obj.edit19:setFontColor("#000000");
+    obj.edit19:setHorzTextAlign("leading");
+    obj.edit19:setVertTextAlign("center");
+    obj.edit19:setLeft(0);
+    obj.edit19:setTop(0);
+    obj.edit19:setWidth(170);
+    obj.edit19:setHeight(26);
+    obj.edit19:setField("Texto265");
+    obj.edit19:setName("edit19");
+
+    obj.layout307 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout307:setParent(obj.rectangle1);
+    obj.layout307:setLeft(208);
+    obj.layout307:setTop(217);
+    obj.layout307:setWidth(170);
+    obj.layout307:setHeight(25);
+    obj.layout307:setName("layout307");
+
+    obj.edit20 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit20:setParent(obj.layout307);
+    obj.edit20:setTransparent(true);
+    obj.edit20:setFontSize(16.5);
+    obj.edit20:setFontColor("#000000");
+    obj.edit20:setHorzTextAlign("leading");
+    obj.edit20:setVertTextAlign("center");
+    obj.edit20:setLeft(0);
+    obj.edit20:setTop(0);
+    obj.edit20:setWidth(170);
+    obj.edit20:setHeight(26);
+    obj.edit20:setField("Texto266");
+    obj.edit20:setName("edit20");
+
+    obj.layout308 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout308:setParent(obj.rectangle1);
+    obj.layout308:setLeft(483);
+    obj.layout308:setTop(157);
+    obj.layout308:setWidth(170);
+    obj.layout308:setHeight(25);
+    obj.layout308:setName("layout308");
+
+    obj.edit21 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit21:setParent(obj.layout308);
+    obj.edit21:setTransparent(true);
+    obj.edit21:setFontSize(16.5);
+    obj.edit21:setFontColor("#000000");
+    obj.edit21:setHorzTextAlign("leading");
+    obj.edit21:setVertTextAlign("center");
+    obj.edit21:setLeft(0);
+    obj.edit21:setTop(0);
+    obj.edit21:setWidth(170);
+    obj.edit21:setHeight(26);
+    obj.edit21:setField("Texto267");
+    obj.edit21:setName("edit21");
+
+    obj.layout309 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout309:setParent(obj.rectangle1);
+    obj.layout309:setLeft(483);
+    obj.layout309:setTop(187);
+    obj.layout309:setWidth(170);
+    obj.layout309:setHeight(25);
+    obj.layout309:setName("layout309");
+
+    obj.edit22 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit22:setParent(obj.layout309);
+    obj.edit22:setTransparent(true);
+    obj.edit22:setFontSize(16.5);
+    obj.edit22:setFontColor("#000000");
+    obj.edit22:setHorzTextAlign("leading");
+    obj.edit22:setVertTextAlign("center");
+    obj.edit22:setLeft(0);
+    obj.edit22:setTop(0);
+    obj.edit22:setWidth(170);
+    obj.edit22:setHeight(26);
+    obj.edit22:setField("Texto268");
+    obj.edit22:setName("edit22");
+
+    obj.layout310 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout310:setParent(obj.rectangle1);
+    obj.layout310:setLeft(483);
+    obj.layout310:setTop(217);
+    obj.layout310:setWidth(170);
+    obj.layout310:setHeight(25);
+    obj.layout310:setName("layout310");
+
+    obj.edit23 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit23:setParent(obj.layout310);
+    obj.edit23:setTransparent(true);
+    obj.edit23:setFontSize(16.5);
+    obj.edit23:setFontColor("#000000");
+    obj.edit23:setHorzTextAlign("leading");
+    obj.edit23:setVertTextAlign("center");
+    obj.edit23:setLeft(0);
+    obj.edit23:setTop(0);
+    obj.edit23:setWidth(170);
+    obj.edit23:setHeight(26);
+    obj.edit23:setField("Texto269");
+    obj.edit23:setName("edit23");
+
+    obj.layout311 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout311:setParent(obj.rectangle1);
+    obj.layout311:setLeft(824);
+    obj.layout311:setTop(157);
+    obj.layout311:setWidth(170);
+    obj.layout311:setHeight(25);
+    obj.layout311:setName("layout311");
+
+    obj.edit24 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit24:setParent(obj.layout311);
+    obj.edit24:setTransparent(true);
+    obj.edit24:setFontSize(16.5);
+    obj.edit24:setFontColor("#000000");
+    obj.edit24:setHorzTextAlign("leading");
+    obj.edit24:setVertTextAlign("center");
+    obj.edit24:setLeft(0);
+    obj.edit24:setTop(0);
+    obj.edit24:setWidth(170);
+    obj.edit24:setHeight(26);
+    obj.edit24:setField("Texto270");
+    obj.edit24:setName("edit24");
+
+    obj.layout312 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout312:setParent(obj.rectangle1);
+    obj.layout312:setLeft(824);
+    obj.layout312:setTop(187);
+    obj.layout312:setWidth(170);
+    obj.layout312:setHeight(25);
+    obj.layout312:setName("layout312");
+
+    obj.edit25 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit25:setParent(obj.layout312);
+    obj.edit25:setTransparent(true);
+    obj.edit25:setFontSize(16.5);
+    obj.edit25:setFontColor("#000000");
+    obj.edit25:setHorzTextAlign("leading");
+    obj.edit25:setVertTextAlign("center");
+    obj.edit25:setLeft(0);
+    obj.edit25:setTop(0);
+    obj.edit25:setWidth(170);
+    obj.edit25:setHeight(26);
+    obj.edit25:setField("Texto271");
+    obj.edit25:setName("edit25");
+
+    obj.layout313 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout313:setParent(obj.rectangle1);
+    obj.layout313:setLeft(824);
+    obj.layout313:setTop(217);
+    obj.layout313:setWidth(170);
+    obj.layout313:setHeight(25);
+    obj.layout313:setName("layout313");
+
+    obj.edit26 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit26:setParent(obj.layout313);
+    obj.edit26:setTransparent(true);
+    obj.edit26:setFontSize(16.5);
+    obj.edit26:setFontColor("#000000");
+    obj.edit26:setHorzTextAlign("leading");
+    obj.edit26:setVertTextAlign("center");
+    obj.edit26:setLeft(0);
+    obj.edit26:setTop(0);
+    obj.edit26:setWidth(170);
+    obj.edit26:setHeight(26);
+    obj.edit26:setField("Texto272");
+    obj.edit26:setName("edit26");
+
     function obj:_releaseEvents()
     end;
 
@@ -5421,6 +5597,8 @@ local function constructNew_frmBastetDA1_svg()
         if self.checkBox128 ~= nil then self.checkBox128:destroy(); self.checkBox128 = nil; end;
         if self.checkBox214 ~= nil then self.checkBox214:destroy(); self.checkBox214 = nil; end;
         if self.checkBox222 ~= nil then self.checkBox222:destroy(); self.checkBox222 = nil; end;
+        if self.layout311 ~= nil then self.layout311:destroy(); self.layout311 = nil; end;
+        if self.layout312 ~= nil then self.layout312:destroy(); self.layout312 = nil; end;
         if self.layout34 ~= nil then self.layout34:destroy(); self.layout34 = nil; end;
         if self.layout210 ~= nil then self.layout210:destroy(); self.layout210 = nil; end;
         if self.layout106 ~= nil then self.layout106:destroy(); self.layout106 = nil; end;
@@ -5456,6 +5634,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.checkBox266 ~= nil then self.checkBox266:destroy(); self.checkBox266 = nil; end;
         if self.layout300 ~= nil then self.layout300:destroy(); self.layout300 = nil; end;
         if self.checkBox211 ~= nil then self.checkBox211:destroy(); self.checkBox211 = nil; end;
+        if self.layout307 ~= nil then self.layout307:destroy(); self.layout307 = nil; end;
         if self.checkBox50 ~= nil then self.checkBox50:destroy(); self.checkBox50 = nil; end;
         if self.layout248 ~= nil then self.layout248:destroy(); self.layout248 = nil; end;
         if self.layout235 ~= nil then self.layout235:destroy(); self.layout235 = nil; end;
@@ -5489,6 +5668,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout229 ~= nil then self.layout229:destroy(); self.layout229 = nil; end;
         if self.checkBox28 ~= nil then self.checkBox28:destroy(); self.checkBox28 = nil; end;
         if self.checkBox189 ~= nil then self.checkBox189:destroy(); self.checkBox189 = nil; end;
+        if self.layout310 ~= nil then self.layout310:destroy(); self.layout310 = nil; end;
         if self.layout277 ~= nil then self.layout277:destroy(); self.layout277 = nil; end;
         if self.checkBox125 ~= nil then self.checkBox125:destroy(); self.checkBox125 = nil; end;
         if self.checkBox260 ~= nil then self.checkBox260:destroy(); self.checkBox260 = nil; end;
@@ -5546,6 +5726,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout1 ~= nil then self.layout1:destroy(); self.layout1 = nil; end;
         if self.checkBox226 ~= nil then self.checkBox226:destroy(); self.checkBox226 = nil; end;
         if self.layout111 ~= nil then self.layout111:destroy(); self.layout111 = nil; end;
+        if self.edit24 ~= nil then self.edit24:destroy(); self.edit24 = nil; end;
         if self.layout12 ~= nil then self.layout12:destroy(); self.layout12 = nil; end;
         if self.edit14 ~= nil then self.edit14:destroy(); self.edit14 = nil; end;
         if self.layout242 ~= nil then self.layout242:destroy(); self.layout242 = nil; end;
@@ -5587,6 +5768,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout268 ~= nil then self.layout268:destroy(); self.layout268 = nil; end;
         if self.checkBox264 ~= nil then self.checkBox264:destroy(); self.checkBox264 = nil; end;
         if self.layout148 ~= nil then self.layout148:destroy(); self.layout148 = nil; end;
+        if self.edit21 ~= nil then self.edit21:destroy(); self.edit21 = nil; end;
         if self.checkBox139 ~= nil then self.checkBox139:destroy(); self.checkBox139 = nil; end;
         if self.checkBox153 ~= nil then self.checkBox153:destroy(); self.checkBox153 = nil; end;
         if self.layout76 ~= nil then self.layout76:destroy(); self.layout76 = nil; end;
@@ -5607,6 +5789,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout97 ~= nil then self.layout97:destroy(); self.layout97 = nil; end;
         if self.layout130 ~= nil then self.layout130:destroy(); self.layout130 = nil; end;
         if self.checkBox280 ~= nil then self.checkBox280:destroy(); self.checkBox280 = nil; end;
+        if self.layout309 ~= nil then self.layout309:destroy(); self.layout309 = nil; end;
         if self.checkBox51 ~= nil then self.checkBox51:destroy(); self.checkBox51 = nil; end;
         if self.layout230 ~= nil then self.layout230:destroy(); self.layout230 = nil; end;
         if self.checkBox75 ~= nil then self.checkBox75:destroy(); self.checkBox75 = nil; end;
@@ -5715,6 +5898,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout105 ~= nil then self.layout105:destroy(); self.layout105 = nil; end;
         if self.checkBox205 ~= nil then self.checkBox205:destroy(); self.checkBox205 = nil; end;
         if self.checkBox286 ~= nil then self.checkBox286:destroy(); self.checkBox286 = nil; end;
+        if self.edit26 ~= nil then self.edit26:destroy(); self.edit26 = nil; end;
         if self.layout250 ~= nil then self.layout250:destroy(); self.layout250 = nil; end;
         if self.checkBox120 ~= nil then self.checkBox120:destroy(); self.checkBox120 = nil; end;
         if self.checkBox45 ~= nil then self.checkBox45:destroy(); self.checkBox45 = nil; end;
@@ -5726,6 +5910,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.edit5 ~= nil then self.edit5:destroy(); self.edit5 = nil; end;
         if self.layout54 ~= nil then self.layout54:destroy(); self.layout54 = nil; end;
         if self.checkBox166 ~= nil then self.checkBox166:destroy(); self.checkBox166 = nil; end;
+        if self.edit19 ~= nil then self.edit19:destroy(); self.edit19 = nil; end;
         if self.checkBox227 ~= nil then self.checkBox227:destroy(); self.checkBox227 = nil; end;
         if self.layout127 ~= nil then self.layout127:destroy(); self.layout127 = nil; end;
         if self.layout50 ~= nil then self.layout50:destroy(); self.layout50 = nil; end;
@@ -5766,12 +5951,14 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout167 ~= nil then self.layout167:destroy(); self.layout167 = nil; end;
         if self.layout147 ~= nil then self.layout147:destroy(); self.layout147 = nil; end;
         if self.layout20 ~= nil then self.layout20:destroy(); self.layout20 = nil; end;
+        if self.edit23 ~= nil then self.edit23:destroy(); self.edit23 = nil; end;
         if self.layout133 ~= nil then self.layout133:destroy(); self.layout133 = nil; end;
         if self.checkBox61 ~= nil then self.checkBox61:destroy(); self.checkBox61 = nil; end;
         if self.layout18 ~= nil then self.layout18:destroy(); self.layout18 = nil; end;
         if self.layout173 ~= nil then self.layout173:destroy(); self.layout173 = nil; end;
         if self.checkBox106 ~= nil then self.checkBox106:destroy(); self.checkBox106 = nil; end;
         if self.layout112 ~= nil then self.layout112:destroy(); self.layout112 = nil; end;
+        if self.layout306 ~= nil then self.layout306:destroy(); self.layout306 = nil; end;
         if self.layout138 ~= nil then self.layout138:destroy(); self.layout138 = nil; end;
         if self.layout151 ~= nil then self.layout151:destroy(); self.layout151 = nil; end;
         if self.layout234 ~= nil then self.layout234:destroy(); self.layout234 = nil; end;
@@ -5779,6 +5966,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout49 ~= nil then self.layout49:destroy(); self.layout49 = nil; end;
         if self.checkBox273 ~= nil then self.checkBox273:destroy(); self.checkBox273 = nil; end;
         if self.layout129 ~= nil then self.layout129:destroy(); self.layout129 = nil; end;
+        if self.layout313 ~= nil then self.layout313:destroy(); self.layout313 = nil; end;
         if self.layout280 ~= nil then self.layout280:destroy(); self.layout280 = nil; end;
         if self.layout238 ~= nil then self.layout238:destroy(); self.layout238 = nil; end;
         if self.checkBox99 ~= nil then self.checkBox99:destroy(); self.checkBox99 = nil; end;
@@ -5805,6 +5993,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout282 ~= nil then self.layout282:destroy(); self.layout282 = nil; end;
         if self.checkBox4 ~= nil then self.checkBox4:destroy(); self.checkBox4 = nil; end;
         if self.edit18 ~= nil then self.edit18:destroy(); self.edit18 = nil; end;
+        if self.edit25 ~= nil then self.edit25:destroy(); self.edit25 = nil; end;
         if self.checkBox118 ~= nil then self.checkBox118:destroy(); self.checkBox118 = nil; end;
         if self.scrollBox1 ~= nil then self.scrollBox1:destroy(); self.scrollBox1 = nil; end;
         if self.layout274 ~= nil then self.layout274:destroy(); self.layout274 = nil; end;
@@ -5816,6 +6005,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.layout213 ~= nil then self.layout213:destroy(); self.layout213 = nil; end;
         if self.layout142 ~= nil then self.layout142:destroy(); self.layout142 = nil; end;
         if self.layout43 ~= nil then self.layout43:destroy(); self.layout43 = nil; end;
+        if self.layout308 ~= nil then self.layout308:destroy(); self.layout308 = nil; end;
         if self.layout269 ~= nil then self.layout269:destroy(); self.layout269 = nil; end;
         if self.checkBox155 ~= nil then self.checkBox155:destroy(); self.checkBox155 = nil; end;
         if self.checkBox190 ~= nil then self.checkBox190:destroy(); self.checkBox190 = nil; end;
@@ -5942,6 +6132,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.checkBox283 ~= nil then self.checkBox283:destroy(); self.checkBox283 = nil; end;
         if self.layout305 ~= nil then self.layout305:destroy(); self.layout305 = nil; end;
         if self.checkBox206 ~= nil then self.checkBox206:destroy(); self.checkBox206 = nil; end;
+        if self.edit22 ~= nil then self.edit22:destroy(); self.edit22 = nil; end;
         if self.layout6 ~= nil then self.layout6:destroy(); self.layout6 = nil; end;
         if self.layout163 ~= nil then self.layout163:destroy(); self.layout163 = nil; end;
         if self.layout86 ~= nil then self.layout86:destroy(); self.layout86 = nil; end;
@@ -5954,6 +6145,7 @@ local function constructNew_frmBastetDA1_svg()
         if self.checkBox30 ~= nil then self.checkBox30:destroy(); self.checkBox30 = nil; end;
         if self.layout91 ~= nil then self.layout91:destroy(); self.layout91 = nil; end;
         if self.layout301 ~= nil then self.layout301:destroy(); self.layout301 = nil; end;
+        if self.edit20 ~= nil then self.edit20:destroy(); self.edit20 = nil; end;
         self:_oldLFMDestroy();
     end;
 
